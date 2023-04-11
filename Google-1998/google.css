@@ -1,0 +1,98 @@
+#logo {
+    
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+#search {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(239, 239, 239);
+    width: 90%;
+    box-sizing: border-box;
+}
+
+#content{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background-color: aqua;
+    margin-top: 5px;
+}
+
+/* Link Özellikleri  */
+#content [class*="box-"] a{
+    color:#0000EE "
+    
+}
+
+#content [class*="box-"] a:active{
+    color:red;
+}
+
+/* renk uygulanıyor */
+/* #content [class*="box-"] a:visited{
+    color:;
+} */
+
+/* Section - Kutu özellikleri */
+.box-1{
+    font-size: 18px;    
+    background-color: rgb(126, 229, 218);
+    width: 37%;
+    border-spacing: 2px;
+    padding-top: 10px;
+    float: left;
+    height: 76px;
+    text-align: center;
+}
+
+.box-2{
+    font-size: 15px;
+    background-color: #70CCc2;
+    width: 20%;
+    border-spacing: 2px;
+    padding-top: 10px;
+    margin-left: 2px;
+    float: left;
+    height: 76px;
+    text-align: center;
+    color:#0000EE ;
+}
+
+.box-3{
+    font-size: 15px;
+    background-color: #62B3AA;
+    width: 42.5%;
+    border-spacing: 2px;
+    padding-top: 10px;
+    margin-left: 2px;
+    float: left;
+    height: 76px;
+    text-align: center;
+    
+}
+
+#footer{
+   
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 14px;
+}
+
+
+
+/*  768 px den daha küçük ekranlar için */
+@media screen and (max-width:768px) {
+    [class*="box-"] {width: 100%;} 
+    
+}
+
+
+
+
